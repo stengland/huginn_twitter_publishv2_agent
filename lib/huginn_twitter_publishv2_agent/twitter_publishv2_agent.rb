@@ -58,7 +58,7 @@ module Agents
       }
     end
 
-    form_configurable :message, type: :string
+    form_configurable :message, type: :text
     form_configurable :consumer_key, type: :string
     form_configurable :consumer_secret, type: :string
     form_configurable :access_token, type: :string
